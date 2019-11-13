@@ -34,5 +34,5 @@ app.all("/*", function(req, res) {
 // and proxy rules to proxy requests to different targets
 http.createServer(app)
 .listen(app.get('port'), function () {
-  console.log('Example app listening on port ' + app.get('port') + "! Go to https://localhost:" + app.get('port') + "/")
+  console.log('Example app listening on port ' + app.get('port') + "! Go to http://localhost:" + app.get('port') + "/")
 });
