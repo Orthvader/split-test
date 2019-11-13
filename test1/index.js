@@ -10,12 +10,11 @@ var json = {
             questions: [
                 {
                     type: "radiogroup",
-                    name: "civilwar",
-                    title: "When was the Civil War?",
+                    name: "punctuality",
+                    title: "punctuality",
                     choices: [
-                        "1750-1800", "1800-1850", "1850-1900", "1900-1950", "after 1950"
-                    ],
-                    correctAnswer: "1850-1900"
+                        "Always on Time & Never Calls In", "Usually on Time & Does Not Call In", "Usually on Time & Sometimes Calls In", "Sometimes on Time & Usually Calls In"
+                    ]
                 }
             ]
         }, {
@@ -79,6 +78,58 @@ var json = {
                     choicesOrder: "random",
                     choices: [
                         "The foundation of the British parliamentary system", "The Great Seal of the monarchs of England", "The French Declaration of the Rights of Man", "The charter signed by the Pilgrims on the Mayflower"
+                    ],
+                    correctAnswer: "The foundation of the British parliamentary system"
+                }
+            ]
+        }, {
+            questions: [
+                {
+                    type: "radiogroup",
+                    name: "magnacarta",
+                    title: "What is the Magna Carta?",
+                    choicesOrder: "random",
+                    choices: [
+                        "The foundation of the British parliamentary system", "The Great Seal of the monarchs of England", "The French Declaration of the Rights of Man", "The charter signed by the Pilgrims on the Mayflower"
+                    ],
+                    correctAnswer: "The foundation of the British parliamentary system"
+                }
+            ]
+        }, {
+            questions: [
+                {
+                    type: "radiogroup",
+                    name: "magnacarta",
+                    title: "What is the Magna Carta?",
+                    choicesOrder: "random",
+                    choices: [
+                        "The foundation of the British parliamentary system", "The Great Seal of the monarchs of England", "The French Declaration of the Rights of Man", "The charter signed by the Pilgrims on the Mayflower"
+                    ],
+                    correctAnswer: "The foundation of the British parliamentary system"
+                }
+            ]
+        }, {
+            questions: [
+                {
+                    type: "radiogroup",
+                    name: "magnacarta",
+                    title: "What is the Magna Carta?",
+                    choicesOrder: "random",
+                    choices: [
+                        "The foundation of the British parliamentary system", "The Great Seal of the monarchs of England", "The French Declaration of the Rights of Man", "The charter signed by the Pilgrims on the Mayflower"
+                    ],
+                    correctAnswer: "The foundation of the British parliamentary system"
+                }
+            ]
+        }, {
+            questions: [
+                {
+                    type: "radiogroup",
+                    name: "magnacarta",
+                    title: "What is the Magna Carta?",
+                    choicesOrder: "random",
+                    choices: [
+                        " signed by the Pil"
                     ],
                     correctAnswer: "The foundation of the British parliamentary system"
                 }
