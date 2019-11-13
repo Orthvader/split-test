@@ -21,13 +21,12 @@ var json = {
             questions: [
                 {
                     type: "radiogroup",
-                    name: "libertyordeath",
-                    title: "Who said 'Give me liberty or give me death?'",
+                    name: "typerofperson",
+                    title: "What Type of Person Are You?",
                     choicesOrder: "random",
                     choices: [
-                        "John Hancock", "James Madison", "Patrick Henry", "Samuel Adams"
-                    ],
-                    correctAnswer: "Patrick Henry"
+                        "Outgoing", "Introverted"
+                    ]
                 }
             ]
         }, {
@@ -46,96 +45,88 @@ var json = {
             questions: [
                 {
                     type: "radiogroup",
-                    name: "magnacarta",
-                    title: "What is the Magna Carta?",
+                    name: "reference",
+                    title: "How Did You Hear About Us?",
                     choicesOrder: "random",
                     choices: [
-                        "The foundation of the British parliamentary system", "The Great Seal of the monarchs of England", "The French Declaration of the Rights of Man", "The charter signed by the Pilgrims on the Mayflower"
-                    ],
-                    correctAnswer: "The foundation of the British parliamentary system"
+                        "Other Person", "Online", "Advertisement", "Recommendations"
+                    ]
                 }
             ]
         }, {
             questions: [
                 {
                     type: "radiogroup",
-                    name: "magnacarta",
-                    title: "What is the Magna Carta?",
+                    name: "improve",
+                    title: "How can we, in your opinion, improve our hiring process?",
                     choicesOrder: "random",
                     choices: [
-                        "The foundation of the British parliamentary system", "The Great Seal of the monarchs of England", "The French Declaration of the Rights of Man", "The charter signed by the Pilgrims on the Mayflower"
-                    ],
-                    correctAnswer: "The foundation of the British parliamentary system"
+                        "Different Questions", "Different Focus", "More Hands-On", "Less Hands-On"
+                    ]
                 }
             ]
         }, {
             questions: [
                 {
                     type: "radiogroup",
-                    name: "magnacarta",
-                    title: "What is the Magna Carta?",
+                    name: "recommendation",
+                    title: "Would you recommend [company name] to other friends to apply?",
                     choicesOrder: "random",
                     choices: [
-                        "The foundation of the British parliamentary system", "The Great Seal of the monarchs of England", "The French Declaration of the Rights of Man", "The charter signed by the Pilgrims on the Mayflower"
-                    ],
-                    correctAnswer: "The foundation of the British parliamentary system"
+                        "Yes", "No", "Depends on the Persons Personality"
+                    ]
                 }
             ]
         }, {
             questions: [
                 {
                     type: "radiogroup",
-                    name: "magnacarta",
-                    title: "What is the Magna Carta?",
+                    name: "Interviewers",
+                    title: "How Friendly Were Your Interviewers, From 1-4",
                     choicesOrder: "random",
                     choices: [
-                        "The foundation of the British parliamentary system", "The Great Seal of the monarchs of England", "The French Declaration of the Rights of Man", "The charter signed by the Pilgrims on the Mayflower"
-                    ],
-                    correctAnswer: "The foundation of the British parliamentary system"
+                        "1", "2","3","4"
+                    ]
                 }
             ]
         }, {
             questions: [
                 {
                     type: "radiogroup",
-                    name: "magnacarta",
-                    title: "What is the Magna Carta?",
+                    name: "get along",
+                    title: "Did s/he get along well with management and co-workers?",
                     choicesOrder: "random",
                     choices: [
-                        "The foundation of the British parliamentary system", "The Great Seal of the monarchs of England", "The French Declaration of the Rights of Man", "The charter signed by the Pilgrims on the Mayflower"
-                    ],
-                    correctAnswer: "The foundation of the British parliamentary system"
+                        "Yes", "Mostly", "A Few bothered them", "We did not really see eye to eye"
+                    ]
                 }
             ]
         }, {
             questions: [
                 {
                     type: "radiogroup",
-                    name: "magnacarta",
-                    title: "What is the Magna Carta?",
+                    name: "feel equipped",
+                    title: "Do you feel that you were equipped to do your job well?",
                     choicesOrder: "random",
                     choices: [
-                        "The foundation of the British parliamentary system", "The Great Seal of the monarchs of England", "The French Declaration of the Rights of Man", "The charter signed by the Pilgrims on the Mayflower"
-                    ],
-                    correctAnswer: "The foundation of the British parliamentary system"
+                        "Yes, I am Ready", "Yes, with more training", "No, I definetly need more time", "No, this is not for me"
+                    ]
                 }
             ]
         }, {
             questions: [
                 {
                     type: "radiogroup",
-                    name: "magnacarta",
-                    title: "What is the Magna Carta?",
+                    name: "interest",
+                    title: "Why Are You Interested In This Job?",
                     choicesOrder: "random",
                     choices: [
-                        " signed by the Pil"
-                    ],
-                    correctAnswer: "The foundation of the British parliamentary system"
+                        "Salary", "Area of Expertise", "Stepping Stone", "Co-Worker Recommendation"
+                    ]
                 }
             ]
         }
-    ],
-    completedHtml: "<h4>You have answered correctly <b>{correctedAnswers}</b> questions from <b>{questionCount}</b>.</h4>"
+    ]
 };
 
 window.survey = new Survey.Model(json);
