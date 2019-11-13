@@ -4,14 +4,14 @@ Survey
     .applyTheme("default");
 
 var json = {
-    title: "American History",
+    title: "Reference Check",
     pages: [
         {
             questions: [
                 {
                     type: "radiogroup",
                     name: "punctuality",
-                    title: "punctuality",
+                    title: "Punctuality",
                     choices: [
                         "Always on Time & Never Calls In", "Usually on Time & Does Not Call In", "Usually on Time & Sometimes Calls In", "Sometimes on Time & Usually Calls In"
                     ]
@@ -34,13 +34,12 @@ var json = {
             questions: [
                 {
                     type: "radiogroup",
-                    name: "magnacarta",
-                    title: "What is the Magna Carta?",
+                    name: "salary",
+                    title: "Salary expectations?",
                     choicesOrder: "random",
                     choices: [
-                        "The foundation of the British parliamentary system", "The Great Seal of the monarchs of England", "The French Declaration of the Rights of Man", "The charter signed by the Pilgrims on the Mayflower"
-                    ],
-                    correctAnswer: "The foundation of the British parliamentary system"
+                        "100,000+", "60,000+", "30,000+", "20,000+"
+                    ]
                 }
             ]
         }, {
